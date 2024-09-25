@@ -1,0 +1,60 @@
+.ipo__header-wrapper {
+  background-color: #f6f6f6;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  padding-left: 2.4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ipo__header-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: grey;
+  flex-grow: 1;
+}
+
+.ipo__header-text:nth-child(n + 2) {
+  text-align: center;
+}
+
+.ipo__list-item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  padding-left: 2.4rem;
+  border-bottom: 1px solid rgb(213, 209, 209);
+}
+
+.ipo__list-item > * {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.ipo__comp-name-wrapper {
+  text-align: left;
+}
+
+.ipo__item-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.ipo__comp-name-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.ipo__comp-name-wrapper img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.ipo__item-sub-text {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
